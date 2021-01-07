@@ -1,3 +1,106 @@
-body {
-    font-family: Poppins;
-}
+    body {
+        font-family: Poppins;
+        width: 1000px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding: 0px 10px;
+    }
+    /*hero area design */
+    
+    .hero-col-1 {
+        margin-top: 40px;
+    }
+    
+    .hero-area {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .hero-h1f {
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: -35px;
+    }
+    
+    .hero-h1s {
+        text-transform: uppercase;
+        font-size: 40px;
+        font-weight: 500;
+        color: orange;
+    }
+    
+    .hero-area p {
+        color: #333;
+        margin-bottom: 10px;
+    }
+    
+    .hero-btn {
+        padding: 8px 30px;
+        background: orange;
+        text-decoration: none;
+        text-transform: capitalize;
+        margin-top: 20px;
+        color: #fff;
+        box-shadow: 2px;
+        box-shadow: 2px 2px 20px rgba(128, 128, 128, 0.411);
+        margin-top: 50px;
+    }
+    
+    .hero-img {
+        text-align: center;
+    }
+    /*about section design*/
+    
+    .about {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    
+    .about-col-2 {
+        margin-left: 100px;
+    }
+    
+    .about-h2 {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 35px;
+    }
+    
+    .about-col-2 p {
+        text-align: justify;
+        color: #333;
+        margin-bottom: 40px;
+    }
+    /*portfolio area styles*/
+    
+    .portfilio {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background: #fcfcfc;
+        width: 100%;
+        column-gap: 40px;
+        padding: 70px 100px;
+    }
+    
+    .portfolio-col {
+        box-shadow: 2px 2px 30px rgba(128, 128, 128, 0.411);
+        padding: 25px 7px;
+        border-radius: 5px;
+    }
+    
+    .portfolio-col h4 {
+        font-size: 18px;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+    
+    .portfolio-col p {
+        font-size: 15px;
+        color: #333;
+        text-align: justify;
+        margin-right: 15px;
+    }
